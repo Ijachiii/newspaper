@@ -5,6 +5,7 @@ from .models import *
 
 class CommentInLine(admin.TabularInline):
     model = Comment
+    extra = 0
 
 class ArticleAdmin(admin.ModelAdmin):
     inlines = [CommentInLine]
