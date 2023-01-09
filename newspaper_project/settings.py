@@ -90,7 +90,7 @@ DATABASES = {
     'default': env.db_url("DATABASE_URL")
 }
 
-CSRF_TRUSTED_ORIGINS = ["https://newspaper-production-bc6e.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS = ["https://newspaper-production-bc6e.up.railway.app"]
 
 
 # Password validation
