@@ -8,6 +8,7 @@ django = "*"
 django-crispy-forms = "*"
 django-environ = "*"
 environ = "*"
+railway = "*"
 
 [dev-packages]
 
